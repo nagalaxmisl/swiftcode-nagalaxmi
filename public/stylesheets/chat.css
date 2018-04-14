@@ -1,1 +1,19 @@
+html,
+body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
 
+#message-pane {
+    background-color: #00aaff;
+}
+
+#form-card {
+    margin: 0px;
+}
+
+.material-icons {
+    font-size: 40px !important;
+}
