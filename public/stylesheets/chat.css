@@ -8,6 +8,7 @@ body {
 
 #message-pane {
     background-color: #00aaff;
+    background-image: url("/assets/images/l.jpeg");
 }
 
 #form-card {

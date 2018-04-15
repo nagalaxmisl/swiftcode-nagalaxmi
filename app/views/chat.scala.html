@@ -14,13 +14,13 @@
             <div ng-repeat="msg in messages" layout="column" layout-align="{{msg.sender == 'BOT' ?
             'start start' : 'start end' }}">
                 <md-card class="message-card" ng-style="msg.sender == 'BOT' ? 
-                {'background-color': '#FFB74D'} :
+                {'background-color': '#FFB74D','color':'#ffffff'} :
                 {'background-color': '#81C784'}">
                     <span>{{msg.text}}</span>
                 </md-card>
             </div>
         </md-content>
-        <md-card id="form-card" class="md-whiteframe-8dp">
+        <md-card id="form-card" class="md-whiteframe-8dp" layout="row" flex="10">
             <form layout="row" flex="90">
                 <md-input-container flex="100">
                     <label>Message</label>
